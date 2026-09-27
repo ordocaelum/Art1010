@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ART 1010 - Drawing Assignment</title>
+    <title>ART 1010 - Drawing, Painting, and Print List</title>
     <style>
         body {
             font-family: "Times New Roman", Times, serif;
@@ -34,6 +34,14 @@
             color: #666;
             margin-bottom: 30px;
         }
+        .artwork-container {
+            margin-bottom: 60px;
+            border-bottom: 1px solid #e8e2d5;
+            padding-bottom: 40px;
+        }
+        .artwork-container:last-child {
+            border-bottom: none;
+        }
         .artwork-identifier {
             font-size: 16px;
             background-color: #f4f1ea;
@@ -55,7 +63,7 @@
         }
         .image-container img {
             max-width: 100%;
-            max-height: 500px;
+            max-height: 450px;
             height: auto;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
@@ -65,12 +73,12 @@
             text-align: justify;
         }
         .section-marker {
-            font-size: 18px;
+            font-size: 20px;
             font-weight: bold;
             color: #8c765c;
-            margin-top: 40px;
+            margin-top: 20px;
             margin-bottom: 15px;
-            border-bottom: 1px solid #e0dad0;
+            border-bottom: 2px solid #b5a48c;
             padding-bottom: 5px;
         }
     </style>
@@ -86,27 +94,79 @@
         </div>
     </div>
 
-    <div class="section-marker">1. Drawing</div>
+    <!-- 1. DRAWING SECTION -->
+    <div class="artwork-container">
+        <div class="section-marker">1. Drawing</div>
 
-    <div class="artwork-identifier">
-        <p><strong>Title of Artwork:</strong> A study of a woman's hands</p>
-        <p><strong>Artist Name:</strong> Leonardo da Vinci</p>
-        <p><strong>Year Created:</strong> c. 1490</p>
-        <p><strong>Page Number:</strong> 107</p>
-        <p><strong>Medium:</strong> Metalpoint, heightening, and charcoal on paper</p>
+        <div class="artwork-identifier">
+            <p><strong>Title of Artwork:</strong> A study of a woman's hands</p>
+            <p><strong>Artist Name:</strong> Leonardo da Vinci</p>
+            <p><strong>Year Created:</strong> c. 1490</p>
+            <p><strong>Page Number:</strong> 107</p>
+            <p><strong>Medium:</strong> Metalpoint, heightening, and charcoal on paper</p>
+        </div>
+
+        <div class="image-container">
+            <img src="img/Leonardo" alt="Leonardo da Vinci - A study of a woman's hands">
+        </div>
+
+        <div class="analysis-text">
+            <p>This drawing shows two hands interacting, with one gently resting over the other. The background has faint, loose lines suggesting clothing folds, but the hands are the clear focus. The composition uses very soft values to show dimension. Instead of heavy dark lines, the shapes are built out of delicate, fine lines that describe the form of the fingers and palms. The artist creates a strong sense of three-dimensional space by using careful shading that makes the skin look soft and realistic. The overall balance feels very calm because the hands are posed so gracefully.</p>
+
+            <p>The piece was made using metalpoint, which means the artist dragged a small metal tip across a coated piece of paper. This leaves very fine, delicate lines that naturally darken into a soft gray over time. Because metalpoint cannot be erased, every line had to be drawn with absolute confidence. To make the hands look rounder, the artist combined the metalpoint with charcoal for deeper shadows and white chalk highlights to catch the light. You can easily see these distinct materials working together where the bright chalk pops on the knuckles and the charcoal adds depth to the cuffs.</p>
+
+            <p>I really like how soft and alive these hands look even though they were drawn over five hundred years ago. The choice of metalpoint was perfect because it forces the details to be incredibly small and smooth. If this had been done with heavy ink or thick paint, it would probably lose that quiet, gentle feeling. It is amazing how much life can come from just tiny flecks of metal and chalk on paper.</p>
+        </div>
     </div>
 
-    <div class="image-container">
-        <!-- Relative path pointing directly to the file in your GitHub repo -->
-        <img src="leonardo-hands.png" alt="Leonardo da Vinci - A study of a woman's hands">
+    <!-- 2. PAINTING SECTION -->
+    <div class="artwork-container">
+        <div class="section-marker">2. Painting</div>
+
+        <div class="artwork-identifier">
+            <p><strong>Title of Artwork:</strong> The Great Piece of Turf</p>
+            <p><strong>Artist Name:</strong> Albrecht Dürer</p>
+            <p><strong>Year Created:</strong> 1503</p>
+            <p><strong>Page Number:</strong> 128</p>
+            <p><strong>Medium:</strong> Bodycolors, heightened with opaque white on vellum</p>
+        </div>
+
+        <div class="image-container">
+            <img src="img/Albrecht" alt="Albrecht Dürer - The Great Piece of Turf">
+        </div>
+
+        <div class="analysis-text">
+            <p>This painting shows a close-up view of a small patch of wild grass and weeds growing out of muddy ground. There is a lot of visual variety here, with long straight blades of grass reaching toward the top and wide, floppy dandelion leaves resting at the bottom. The artist uses a wide range of green and brown colors to make the plants look natural. The composition feels random at first glance, but there is a clear rhythm in how the tall stalks repeat across the page, creating a busy yet unified look at a tiny piece of nature.</p>
+
+            <p>The artist used bodycolors, which is basically an opaque watercolor paint often called gouache, on a smooth material called vellum. Opaque watercolors are different from regular watercolors because they let the artist paint light details on top of dark colors instead of just leaving the white paper exposed. You can see this clearly where the sharp, thin highlights of white paint are layered right over the dark green blades of grass to show reflection. The medium allowed the artist to capture tiny details like individual seeds on the stalks with massive precision.</p>
+
+            <p>I chose this painting because it is unusual to see someone spend so much time making a masterpiece out of ordinary weeds. The opaque paint adds a wonderful crispness that makes the scene feel fresh, almost like you could reach out and touch the damp grass. Using this detailed medium turns a boring patch of dirt into something incredibly beautiful and worth staring at.</p>
+        </div>
     </div>
 
-    <div class="analysis-text">
-        <p>This drawing shows two hands interacting, with one gently resting over the other. The background has faint, loose lines suggesting clothing folds, but the hands are the clear focus. The composition uses very soft values to show dimension. Instead of heavy dark lines, the shapes are built out of delicate, fine lines that describe the form of the fingers and palms. The artist creates a strong sense of three-dimensional space by using careful shading that makes the skin look soft and realistic. The overall balance feels very calm because the hands are posed so gracefully.</p>
+    <!-- 3. PRINT SECTION -->
+    <div class="artwork-container">
+        <div class="section-marker">3. Print</div>
 
-        <p>The piece was made using metalpoint, which means the artist dragged a small metal tip across a coated piece of paper. This leaves very fine, delicate lines that naturally darken into a soft gray over time. Because metalpoint cannot be erased, every line had to be drawn with absolute confidence. To make the hands look rounder, the artist combined the metalpoint with charcoal for deeper shadows and white chalk highlights to catch the light. You can easily see these distinct materials working together where the bright chalk pops on the knuckles and the charcoal adds depth to the cuffs.</p>
+        <div class="artwork-identifier">
+            <p><strong>Title of Artwork:</strong> Christ Crucified between the Two Thieves</p>
+            <p><strong>Artist Name:</strong> Rembrandt van Rijn</p>
+            <p><strong>Year Created:</strong> 1653</p>
+            <p><strong>Page Number:</strong> 137</p>
+            <p><strong>Medium:</strong> Drypoint</p>
+        </div>
 
-        <p>I really like how soft and alive these hands look even though they were drawn over five hundred years ago. The choice of metalpoint was perfect because it forces the details to be incredibly small and smooth. If this had been done with heavy ink or thick paint, it would probably lose that quiet, gentle feeling. It is amazing how much life can come from just tiny flecks of metal and chalk on paper.</p>
+        <div class="image-container">
+            <img src="img/rembrandt" alt="Rembrandt - Christ Crucified between the Two Thieves">
+        </div>
+
+        <div class="analysis-text">
+            <p>This print shows a highly intense and dark biblical scene with Jesus on the cross located right in the center. The background is covered in heavy, dark vertical shading that looks almost like giant black curtains falling down on the crowd. The artist uses a massive value contrast between the bright white light cutting through the center and the messy, pitch-black areas surrounding the figures. The composition feels very crowded and full of movement, with a chaotic rhythm created by the many small shapes of horses and people weeping at the bottom of the crosses.</p>
+
+            <p>The print was made using drypoint, which is an intaglio process where the artist scratches lines directly into a soft copper plate with a sharp metal needle. When the metal is scratched, it kicks up a rough ridge of copper called a burr. This burr catches a lot of extra ink and gives the finished print its characteristic soft, blurry, and velvety lines instead of the ultra-clean lines you get from regular engraving. You can see this painterly texture clearly in the dense, dark shadows on both sides of the plate where the ink pooled thickly into the rough burr edges.</p>
+
+            <p>I switched to this artwork because the mood is incredibly powerful and dramatic. The choice of drypoint works perfectly here because the fuzzy, dark lines make the scene feel chaotic and scary, capturing the feeling of a massive storm rolling in during the crucifixion. If the lines were super clean and perfectly straight, the print would probably look cold and neat instead of emotional and full of energy.</p>
+        </div>
     </div>
 
 </body>
